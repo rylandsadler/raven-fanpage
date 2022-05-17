@@ -1,0 +1,18 @@
+body{
+    background-color: white;
+}
+.header-container{
+    display: flex;
+    flex-direction: row;
+    background-color: lightsteelblue;
+    
+}
+
+.header-links {
+display: flex;
+margin-left: auto;
+padding: 0px 100px 0px 0px;
+justify-content: right;
+align-items: center;
+
+}
