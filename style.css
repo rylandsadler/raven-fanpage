@@ -1,8 +1,8 @@
 
-
 body{
     font-family: "Roboto";
     margin: 0%;
+   
 
 }
 /*
@@ -61,7 +61,7 @@ div{
     color: white;
     font-size: 48px;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-weight: extra-bold;
+    font-weight: bolder;
 }
 .corvus-intro{
     color:white;
@@ -76,6 +76,7 @@ div{
     align-items: center;
     gap: 2 em;
     text-align: left;
+    
     /*this makes the nav bar and the box under it touch. Not sure why*/
 }
 .crow-facts{
@@ -93,6 +94,69 @@ div{
     border:none;
 }
 .crow-sign-up:hover{
-
     box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+.crow-squares{
+    background-color: white;
+}
+.crow-info{
+    background-color: white;
+    text-align: center;
+    font-size: 36px;
+    font-weight: bolder;
+    margin-top: 50px;
+}
+.crow-cards{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: white;
+    margin-top: 45px;
+    
+}
+figcaption{
+    text-align: center;
+}
+.crow-squares img{
+    border-radius: 20px;
+    border: 10px solid lightblue;
+}
+.crow-quote{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: lightgray;
+    margin-top: 45px;
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    color: rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    padding: 95px
+}
+.call-to-action{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 208 80;
+    background-color: white;;
+    
+}
+.action-text{
+    background-color: #3882f6;
+    padding: 60px;
+    color: white;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    border-radius: 20px;
+    text-align: left;
+    
+}
+.action-text button{
+    background-color: #3882f6;
+    border: 2px solid white;
+    border-radius: 25px;
+    color: white;
+    float: right;
+    align-items: center;
+    padding: 20px;
 }
